@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* common style and utilities  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+}
+.text-orange{
+    color: orange;
+}
+.link-button{
+     background-image: linear-gradient(90deg,#FBA24F,#FF1E1E);
+     padding: 24px 32px;
+     border-radius: 100px;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 700;
+     display: inline-block;
+     box-shadow: 0 2px 30px 0 #FC8F49;
+     line-height: 10px;
+}
+.common-container{
+    width: 90%;
+    margin:auto;
+}
+.section-heading{
+    text-align:center;    
+}
+.section-heading h2{
+   font-size: 30px;
+   font-weight: 700;
+   padding: 10px 0; 
+}
+
+ /* header section style  */
+
+ .header-container{
+     width: 100%;
+     height: 100vh;
+ }
+ .main-banner {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .banner-description{
+     width:50%;
+    
+ }
+ .banner-description h1{
+     font-size: 60px;
+     font-weight: 800;
+ }
+ .banner-description p{
+     font-size: 18px;
+     font-weight: 400px;
+     padding: 15px 0;
+ }
+ .banner-thumbnail{
+     width: 50%;
+ }
+ .banner-thumbnail img{
+     width: 95%;
+ }
+ /* end  header section style  */
+
+ /* start about section style  */
+ .about-container{
+     width: 100%;
+     height: 600px;
+     background-image: url(images/shapes/about-bg.png);
+ }
+ .about-content{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .about-thumbnail{
+     width: 50%;
+     padding-left: 100px;
+ }
+
+ .about-thumbnail img{
+     height: 600px;
+     padding-top:40px;
+ }
+ .about-details{
+     width: 50%;
+     padding-right: 165px;
+      
+ }
+ .about-details h2{
+     font-size: 40px;
+     font-weight: 700;
+ }
+ .about-details p{
+    font-size: 18px;
+    font-weight: 400;
+    padding:15px 0;
+ }
+ /* end about section style  */
+ .recipe-container{
+     margin:50px 0;
+ }
+ 
+ .recipes{
+     display: flex;
+     column-gap: 40px;
+     margin-top: 30px;
+ }
+ .recipe{
+     width: 33%;
+     border-radius: 30px;
+     box-shadow: 0 0 20px 0 #000 ;
+     padding: 20px;
+ }
+
+ .recipe-thumbnail img{
+     width: 100%;
+ }
+ .recipe-details{
+     padding-top: 30px;
+     line-height: 30px;
+ }
+ .recipe-details h2{
+     font-size: 28px;
+     padding-bottom: 10px;
+ }
+ /* Extra section style  */
+  
+ /* blog section style  */
+ .blogs{
+     display: flex;
+     column-gap:20px;
+     margin:20px 0;
+ }
+ .blog{
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     column-gap: 0;
+     box-shadow: 0 0 10px 0 rgb(24, 12, 12);
+    border-radius: 10px;
+
+ }
+ .blog-thumbnail img{
+     width: 100%;
+     display: block;
+ }
+ .blog-details{
+     background-color: slategray;
+     height: 100%;
+     padding: 20px;
+     
+ }
+ 
+ .blog-details h2{
+     padding: 10px 0;
+     color: white;
+ }
+ .blog-details p{
+     
+     color: white;
+ }
+ /* end blog section  */
+
+  /* start subscribe section  style */
+  .subscribe{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.753)),url(images/subscribe-bg.jpg);
+      margin:50px 0;
+  }
+  .container{
+      display: flex;
+      padding:80px 30px;
+      align-items: center;
+      justify-content: space-around;
+  }
+  input{
+      width: 300px;
+      border:0;
+      outline: none;
+      padding: 5px 10px;
+      background-color: transparent;
+      border-bottom: 1px solid gold;
+      color: #fff;
+     
+  }
+  .subscribe-button{
+      padding:5px 30px ;
+      margin-left: -15px;
+      border: 0;
+      border-bottom: 1px solid gold;
+  }
+  .subscribe-heading h4{
+      color: #ebe5e5;
+      font-weight: 700;
+      font-size: 20px;
+  }
+
+  .subscribers{
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 0;
+      box-shadow: 5px 5px 10px gray;
+      border-radius: 10px;
+      margin-bottom: 50px;
+  }
+  .subscriber{
+      text-align: center;
+      line-height: 40px;
+  }
+  .subscriber h2{
+     font-size: 50px ;
+     font-weight: 900;
+     color: black;
+  }
+/* End extra section  */
+
+ footer{
+     background-color: black;
+     text-align: center;
+     padding:30px 0 60px 0;
+     line-height: 40px;
+ }
